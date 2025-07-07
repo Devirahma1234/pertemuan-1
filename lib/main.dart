@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pertemuan_1/home_page.dart';
+// import 'package:pertemuan_1/home_page.dart';
+import 'package:pertemuan_1/tugas_satu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: const TugasSatu(),
     );
   }
 }

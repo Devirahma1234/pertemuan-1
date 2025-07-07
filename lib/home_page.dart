@@ -40,9 +40,11 @@ class _HomePageState extends State<HomePage> {
           SizedBox(height: 20),
           Text(
             "Discover the most modern furniture",
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
           ),
           SizedBox(height: 10),
+          Text('Rp 350.500'),
+
           Container(
             height: 300,
             width: double.infinity,
